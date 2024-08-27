@@ -4,7 +4,7 @@ using OpenQA.Selenium;
 
 namespace UnionReporting.Forms;
 
-public class TestRow: Form
+public class TestRow : Form
 {
     private ILabel TestName => FormElement.FindChildElement<ILabel>(By.XPath("/td[1]"), nameof(TestName));
     private ILabel TestMethod => FormElement.FindChildElement<ILabel>(By.XPath("/td[2]"), nameof(TestMethod));

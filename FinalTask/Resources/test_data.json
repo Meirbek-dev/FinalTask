@@ -1,7 +1,7 @@
 {
-	"variant": "2",
-	"testProjectName": "Nexage",
-	"currentTestName": "UnionTests",
-	"currentMethodName": "TestUnionReporting",
-	"currentEnv": "dev"
+  "variant": "2",
+  "testProjectName": "Nexage",
+  "currentTestName": "UnionTests",
+  "currentMethodName": "TestUnionReporting",
+  "currentEnv": "dev"
 }

@@ -10,6 +10,8 @@ public class BaseTest
     public void CloseBrowser()
     {
         if (AqualityServices.IsBrowserStarted)
+        {
             DriverUtil.Quit();
+        }
     }
 }

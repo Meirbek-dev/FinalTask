@@ -4,7 +4,7 @@ using OpenQA.Selenium;
 
 namespace UnionReporting.Forms.Pages;
 
-public class AddProjectPage: Form
+public class AddProjectPage : Form
 {
     private ITextBox EnterProjectNameTxb => FormElement.FindChildElement<ITextBox>(By.Id("projectName"), nameof(EnterProjectNameTxb));
     private ILabel SuccessfulSaveMsg => FormElement.FindChildElement<ILabel>(By.ClassName("alert-success"), "Save project response message");

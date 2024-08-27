@@ -10,7 +10,7 @@ using UnionReporting.Utils;
 
 namespace UnionReporting;
 
-public class UnionTests: BaseTest
+public class UnionTests : BaseTest
 {
     private static readonly TestData _testData = TestData.GetTestData();
 

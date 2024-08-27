@@ -7,7 +7,7 @@ using UnionReporting.Models;
 
 namespace UnionReporting.Forms.Pages;
 
-public class ProjectPage: Form
+public class ProjectPage : Form
 {
     private IList<ILabel> TestStartTimes => ElementFactory.FindElements<ILabel>(By.XPath("//table[@class='table']//td[4]"), nameof(TestStartTimes));
 
