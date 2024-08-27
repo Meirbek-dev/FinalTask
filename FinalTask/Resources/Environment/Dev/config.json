@@ -1,0 +1,4 @@
+﻿{
+	"startUrl": "http://login:password@localhost:8080/web/projects",
+	"apiUrl": "http://localhost:8080/api/"
+}
